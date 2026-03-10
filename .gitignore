@@ -52,3 +52,6 @@ Thumbs.db
 
 # Node modules (se usar)
 /node_modules
+
+# Documentação interna privada
+/docs/
