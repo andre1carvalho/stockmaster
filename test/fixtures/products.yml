@@ -1,15 +1,18 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+# Fixtures para testes de Product
+# Nomes únicos + campo brand (obrigatório)
 
-one:
-  name: MyString
-  quantity: 1
-  price: 9.99
-  category: MyString
-  expiration_date: 2026-02-28
+arroz_integral:
+  name: Arroz Integral Tio João
+  quantity: 50
+  price: 12.90
+  category: Alimentos
+  brand: Tio João
+  expiration_date: 2027-06-15
 
-two:
-  name: MyString
-  quantity: 1
-  price: 9.99
-  category: MyString
-  expiration_date: 2026-02-28
+refrigerante_cola:
+  name: Refrigerante Cola 2L
+  quantity: 120
+  price: 8.49
+  category: Bebidas
+  brand: Coca-Cola
+  expiration_date: 2026-12-01
